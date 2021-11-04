@@ -26,7 +26,6 @@ section .wave{
     left: 0;
     background-image: url(./images/wave.png);
     animation: animate 4s linear infinite;
-
 }
 section .wave::before{
     content: " ";
@@ -72,12 +71,7 @@ h1{
     transform: scale(2);
 }
 
-h1 spn{
-  color: white;
-  text-shadow: 0 0 10px black,
-               0 0 20px black, 
-               0 0 40px black;
-}
+
 
 .container2 {
     width: 100%;
@@ -186,5 +180,5 @@ h1 spn{
 
 h1{
     
-    -webkit-text-stroke: 0.2px blue;
+    -webkit-text-stroke: 0.2px rgb(5, 63, 255);
 }
