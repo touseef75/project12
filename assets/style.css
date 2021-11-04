@@ -25,7 +25,7 @@ section .wave{
     bottom: 0;
     left: 0;
     background-image: url(./images/wave.png);
-    animation: animate 6s linear infinite;
+    animation: animate 4s linear infinite;
 
 }
 section .wave::before{
@@ -37,7 +37,7 @@ section .wave::before{
     left: 0;
     background-image: url(./images/wave.png);
     opacity: 0.4;
-    animation: animate-reverse 4s linear infinite;
+    animation: animate-reverse 2s linear infinite;
 
 
 }
@@ -180,4 +180,11 @@ h1 spn{
 .button-30:active {
   box-shadow: #D6D6E7 0 20px 20px inset;
   transform: translateY(10px);
+}
+
+
+
+h1{
+    
+    -webkit-text-stroke: 0.2px blue;
 }
