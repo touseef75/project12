@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #d3f7fa;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: #d3f7fa;
+}
+@font-face {
+  font-family: jameelNoori;
+  src: url(Concept\ Bold.ttf);
+  font-weight: bold;
+}
+
+.box{
+    height: 99vh;
+    width: 75%;
+    /* background-color: white; */
+    background-color: #fff8e3;
+    margin-left: 170px;
+    margin-top: 20px;
+}
+.butt{
+    text-align: end;
+    width: 70%;
+    position: absolute;
+    margin-top: -80px;
+    
+}
+#h5{
+    margin-left: 150px;transform: scale(4);margin-top: 20px;font-family: Concept Bold;
+}
+#h5::first-letter{
+    color: red;
+}
+button{
+    border: none;
+    outline: none;
+    padding: 3px 40px 3px 40px;
+    background-color: #0a4e83;
+    color: white;
+    border-radius: 10px;
+    font-size: 1.4rem;
+}
+.vedio{
+    text-align: center;
+}
+.box1{
+    height: 15vh;
+    width: 100%;
+    background-color: #0a4e83;
+}
+.head{
+    color: white;
+    transform: scale(1.1);
+    margin-left: 80px;
+    margin-top: 10px;
+}
+    
+    
+    

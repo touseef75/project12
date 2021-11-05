@@ -1,93 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <link rel="stylesheet" href="./assets/style.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-        crossorigin="anonymous"></script>
+    <style>
+        body {
+            background-color: #48cae4;
+            overflow-x: hidden;
+        }
+
+        .h4 {
+            color: white;
+            text-align: center;
+            transform: scale(2);
+            -webkit-text-stroke: 0.1vw #383d52;
+            margin-top: 80px;
+        }
+
+        @media screen and (max-width:768px) {
+            .h4 {
+                transform: scale(0.9);
+                text-align: start;
+            }
+
+            body {
+                overflow-x: hidden;
+            }
+
+            .img {
+                transform: scale(0.8);
+                margin-right: 500px;
+            }
+        }
+    </style>
 </head>
-<style>
-    .content{
-        margin-left: 100px;
-    }
-         @media screen and (max-width:768px){
-			 .head{
-                 transform: scale(0.5);
-             }.content{
-                 margin: none;
-                 margin-left: -110px;
-                 /* margin-bottom: -900px; */
-             }video{
-                 height: 80vh;
-                 width: 90%;
-             }.container2{
-                 width: 100%;
-             }div .front{
-                 margin-top: -150px;
-             }div .back{
-                 margin-top: -150px;
-             }.but{
-                 margin-top: -200px;
-             }
-		 } 
-</style>
-<body>
-    <div class="container">
-        
-    <section>
-        <br>
-        
 
-
-        <div class="wave"></div>
-        <div class="head">
-            <br>
-            <h1 data-text="Osmoregulation in Fresh water & Marine fish">Osmoregulation in Fresh water & Marine fish</h1>
+<body style="background-image: url(./assets/images/back1.jpg);height: 95vh;width: 100%;background-size: cover;">
+    <div class="conntainer" id="cont">
+        <div class="img">
+            <img src="./assets/images/logo1.png" alt="">
         </div>
-        <br>
-
-        <div class="content">
-            
-        
-            <div class="align">
-                <section class="container2">
-                    <div class="card">
-                        <div class="front" style="">
-                            <br><br>
-                            <video id="video1" loop width="1000vh" height="130%" style="border-radius: 100px;">
-                                <source src="./assets/images/fresh.mp4" type="video/mp4">
-                            </video>
-                            <!-- <img id="img1" src="./assets/images/ezgif.com-gif-maker (3).gif" alt="" style="border-radius: 20px;"> -->
-                         <!-- <img id="img2" src="./assets/images/img.png" alt="" style="display: none;transform: scale(0.6);border-radius: 20px;margin-left: -300px;margin-top: -50px;"> -->
-                        </div>
-                        <div  class="back" style="">
-                            <br><br>
-                            <video id="video2" loop width="1000vh" height="130%" style="border-radius: 100px;">
-                                <source src="./assets/images/salt.mp4" type="video/mp4">
-                            </video>
-                         <!-- <img id="img1" src="./assets/images/ezgif.com-gif-maker (3).gif" alt="" style="border-radius: 20px;"> -->
-                         <!-- <img id="img2" src="./assets/images/img.png" alt="" style="display: none;"> -->
-                        </div>
-                    </div>
-
-                </section>
-               
-                <img src="./assets/" alt="">
+        <!-- <img src="./assets/images/logo.png" alt=" -->
+        <div class="box button">
+            <div class="head" style="color: black;height: 16vh;">
+                <br><br>
+                <h1 class="h4">Osmoregulation in Marine fish <br> and Fresh water fish</h1>
             </div>
-        
             
+            <br>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <div class="buttons" style="text-align: end;margin-right: 30px;">
+                <a href="./assets/main.html">
+                    <button id="next" class="button-82-pushable" role="button">
+                        <span class="button-82-shadow"></span>
+                        <span class="button-82-edge"></span>
+                        <span class="button-82-front text">
+                            Next
+                        </span>
+                    </button>
+                </a>
+
+            </div>
+
         </div>
-        <br><br><br><br>
-        <div class="but">
-            <button onclick="flip()" class="button-30" role="button">Next</button>
-        </div>
-    </section>
-    
+
+
+        <br><br><br>
     </div>
-    <script src="./assets/main.js"></script>
+
+
+
+    <script src="./main.js"></script>
 </body>
+
 </html>
