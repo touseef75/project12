@@ -34,7 +34,9 @@ body{
     
 }
 #h5{
-    margin-left: 150px;transform: scale(4);margin-top: 20px;font-family: Concept Bold;
+    font-family: Concept Bold;
+    transform: scale(5);
+    margin-top: 20px;
 }
 #h5::first-letter{
     color: red;
@@ -57,10 +59,13 @@ button{
     background-color: #0a4e83;
 }
 .head{
+    width: 80%;
+    display: flex;
     color: white;
+    justify-content: space-around;
     transform: scale(1.1);
-    margin-left: 80px;
     margin-top: 10px;
+    
 }
     
  @media screen and (max-width:768px) {
@@ -75,8 +80,12 @@ button{
                 margin-left: 0;
             }#col{
                 margin: 0;
-                transform: scale(0.9);
+                transform: scale(0.6);
                 margin-top: -35px;
+            }#h5{
+                margin: 0;
+            }button{
+                margin: 5px;
             }
         }
     
